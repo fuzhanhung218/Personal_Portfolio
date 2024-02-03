@@ -52,10 +52,6 @@ header {
     scale: 1.05;
 }
 
-.action_btn:active {
-    scale: 0.95;
-}
-
 .dropdown-menu {
     display: none;
     position: absolute;
