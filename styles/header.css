@@ -6,10 +6,12 @@ a {
     text-decoration: none;
     color: black;
     font-size: 15px;
+    transition: transform 0.2s ease;
 }
 
 a:hover {
     color: lightsalmon;
+    transform: scale(1.1);
 }
 
 header {
@@ -29,6 +31,16 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.links li a {
+    transition: transform 0.2s ease; 
+    display: inline-block; /* Ensures the links don't push other elements */
+}
+
+.links li:hover a {
+    color: lightsalmon;
+    transform: scale(1.1); 
 }
 
 .navbar .toggle_btn {
