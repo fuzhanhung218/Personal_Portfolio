@@ -8,4 +8,27 @@
 body {
     height: 100vh;
     background-color: antiquewhite;
+    overflow: hidden;
+}
+
+main {
+    padding: 0px 80px;
+}
+
+p#email{
+    writing-mode: vertical-lr;
+    position: fixed;
+    font-size: 0.8rem;
+    bottom: 70px;
+    right: 30px;
+}
+
+section#introduction {
+    height: calc(100vh - 60px);
+    display: flex;
+    top: 200px;
+    left: 0;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
 }
