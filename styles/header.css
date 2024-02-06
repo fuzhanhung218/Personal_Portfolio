@@ -50,10 +50,11 @@ header {
 }
 
 .action_btn {
-    background-color: lightblue;
+    /* background-color: #ff5e6c; */
+    background-color: #fff5d7;
     padding: 5px 10px;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -62,6 +63,8 @@ header {
 
 .action_btn:hover {
     transform: scale(1.05);
+    color: black;
+    border-color: black;
 }
 
 .dropdown-menu {
