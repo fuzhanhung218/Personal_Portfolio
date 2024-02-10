@@ -4,8 +4,9 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
     font-size: 15px;
+    color: white;
+    display: inline-block;
     transition: transform 0.2s ease;
 }
 
@@ -18,6 +19,8 @@ header {
     padding: 0 30px;
 }
 
+
+/* NAV-BAR STYLES */
 .navbar {
     width: 100%;
     height: 60px;
@@ -30,12 +33,6 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
-}
-
-.links li a {
-    transition: transform 0.2s ease; 
-    color: white;
-    display: inline-block; /* Ensures the links don't push other elements */
 }
 
 .links li:hover a {
