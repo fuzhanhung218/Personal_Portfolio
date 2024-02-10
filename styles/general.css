@@ -1,3 +1,7 @@
+:root {
+    --gradient: linear-gradient(38deg, #13234b, #334572, #6277a1, #a0afcc);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +11,39 @@
 
 body {
     height: 100vh;
-    background-color: #fff5d7;
-    /* background-color: rgb(37, 0, 37); */
+    color: white;
+    background-color: #0e172e;
+    /* background-image: var(--gradient);
+    background-size: 800% 800%; */
     overflow: hidden;
+
+    /* -webkit-animation: bg-animation 14s ease infinite;
+    -moz-animation: bg-animation 14s ease infinite;
+    animation: bg-animation 14s ease infinite; */
 }
 
+/* @-webkit-keyframes bg-animation {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes bg-animation {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes bg-animation {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+} */
+
 main {
-    padding: 0px 80px;
+    padding: 0px 100px;
+    height: 100vh;
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
 }
 
 p#email{
@@ -26,21 +56,33 @@ p#email{
 
 section#introduction {
     display: flex;
-    gap: 10px;
+    position: relative;
+    top: 100px;
+    gap: 15px;
+    padding: 10px;
     flex-direction: column;
-    align-items: flex-start;
-    background-color: aquamarine;
+}
+
+section#introduction h1{
+    font-size: 40px;
+    max-width: 700px;
+}
+
+section#introduction p{
+    max-width: 500px;
 }
 
 .intro-button {
     /* background-color: #ff5e6c; */
-    background-color: #fff5d7;
+    background-color: transparent;
     border-style: solid;
-    border-color: black;
+    color: rgb(84, 252, 255);
+    border-color: rgb(84, 252, 255);
     padding: 20px;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 5px;
+    width: 220px;
     transition: scale 0.2s ease;
 }
 

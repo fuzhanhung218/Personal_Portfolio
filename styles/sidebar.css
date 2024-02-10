@@ -23,10 +23,12 @@
     font-size: 20px;
     transition: transform 0.2s ease;
     display: inline-block;
+    color: white;
 }
 
 .sidebar li a:hover{
     transform: scale(1.2);
+    color: rgb(84, 252, 255);
 }
 
 .vertical-line {
