@@ -36,7 +36,7 @@ header {
 }
 
 .links li:hover a {
-    color: rgb(84, 252, 255);
+    color: var(--secondary-color);
     transform: scale(1.1); 
 }
 
@@ -53,8 +53,8 @@ header {
     padding: 5px 10px;
     border-style: solid;
     border-radius: 5px;
-    color: rgb(84, 252, 255);
-    border-color: rgb(84, 252, 255);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -83,7 +83,7 @@ header {
 }
 
 .dropdown-menu li a:hover{
-    color: rgb(84, 252, 255);
+    color: var(--secondary-color);
 }
 
 .dropdown-menu.open {

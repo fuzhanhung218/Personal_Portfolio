@@ -28,7 +28,7 @@
 
 .sidebar li a:hover{
     transform: scale(1.2);
-    color: rgb(84, 252, 255);
+    color: var(--secondary-color);
 }
 
 .vertical-line {

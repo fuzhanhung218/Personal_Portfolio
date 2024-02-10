@@ -39,8 +39,8 @@ section#introduction p{
 .intro-button {
     background-color: transparent;
     border-style: solid;
-    color: rgb(84, 252, 255);
-    border-color: rgb(84, 252, 255);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
     padding: 20px;
     text-transform: uppercase;
     font-weight: 600;
