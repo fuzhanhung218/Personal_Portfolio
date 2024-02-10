@@ -46,8 +46,9 @@ header {
     display: none;
 }
 
+/* ACTION BUTTON (RESUME) STYLES */
+
 .action_btn {
-    /* background-color: #ff5e6c; */
     background-color: transparent;
     padding: 5px 10px;
     border-style: solid;
@@ -64,6 +65,8 @@ header {
     transform: scale(1.05);
 }
 
+/* DROPDOWN MENU STYLES */
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -71,13 +74,38 @@ header {
     right: 20px;
     width: 250px;
     height: 0;
-    background-color: rgba(231, 201, 155, 0.5);
+    background-color: #1e2c4d;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.2s ease;
     z-index: 1000;
 }
+
+.dropdown-menu li a:hover{
+    color: rgb(84, 252, 255);
+}
+
+.dropdown-menu.open {
+    height: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* RESPONSIVE DESIGN */
 
 @media (max-width: 992px) {
     .navbar .links,
@@ -99,23 +127,4 @@ header {
         left: 20px;
         width: unset;
     }
-}
-
-.dropdown-menu.open {
-    height: 180px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.dropdown-menu li {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dropdown-menu .action_btn {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
