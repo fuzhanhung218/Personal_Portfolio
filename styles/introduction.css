@@ -3,7 +3,7 @@ main {
     display: flex;
     max-width: 1200px;
     justify-content: center;
-    animation: transitionIn 5s;
+    animation: var(--transition);
 }
 
 /* BOTTOM RIGHT EMAIL TEXT */
@@ -14,7 +14,7 @@ p#email{
     font-size: 0.8rem;
     bottom: 70px;
     right: 30px;
-    animation: transitionIn 5s;
+    animation: var(--transition);
 }
 
 /* INTRODUCTION STYLES AND LAYOUT */

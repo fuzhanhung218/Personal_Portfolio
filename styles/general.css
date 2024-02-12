@@ -3,6 +3,8 @@
     --h1-color: rgb(199, 224, 246);
     --p-color: rgb(143, 197, 245);
     --secondary-color: rgb(84, 252, 255);
+
+    --transition: transitionIn 3s;
 }
 
 /* RESET DEFAULT STYLES */
