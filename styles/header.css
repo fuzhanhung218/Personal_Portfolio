@@ -15,8 +15,11 @@ a:hover {
 }
 
 header {
-    position: relative;
-    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 1000;
+    animation: transitionIn 5s;
 }
 
 

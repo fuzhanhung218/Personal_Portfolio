@@ -1,9 +1,9 @@
 main {
-    padding: 0px 100px;
-    height: 100vh;
+    padding: 80px 100px;
     display: flex;
     max-width: 1200px;
     justify-content: center;
+    animation: transitionIn 5s;
 }
 
 /* BOTTOM RIGHT EMAIL TEXT */
@@ -14,6 +14,7 @@ p#email{
     font-size: 0.8rem;
     bottom: 70px;
     right: 30px;
+    animation: transitionIn 5s;
 }
 
 /* INTRODUCTION STYLES AND LAYOUT */

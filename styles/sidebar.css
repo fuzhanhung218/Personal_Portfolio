@@ -10,6 +10,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-bottom: 120px;
+    animation: transitionIn 5s;
 }
 
 .sidebar .links-2 {
