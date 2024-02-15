@@ -105,6 +105,10 @@ header {
     justify-content: center;
 }
 
+.dropdown-menu .action_btn:hover {
+    transform: scale(1.05);
+}
+
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 992px) {
