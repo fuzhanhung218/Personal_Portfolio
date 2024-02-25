@@ -69,7 +69,7 @@ header {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 50px;
     right: 20px;
     width: 250px;
     height: 0;
