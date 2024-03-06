@@ -19,7 +19,7 @@ This repository houses the codebase for my personal portfolio website, showcasin
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript, React.js
-- **Backend:** Node.js
-- **Database:** SQL
+- **Backend:** N/A
+- **Database:** N/A
 - **Deployment:** N/A
 - **Version Control:** Git
