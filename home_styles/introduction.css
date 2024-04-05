@@ -55,6 +55,7 @@ section#introduction p{
     border-color: var(--secondary-color);
     padding: 20px;
     text-transform: uppercase;
+    text-align: center;
     font-weight: 600;
     border-radius: 5px;
     width: 240px;
@@ -77,7 +78,6 @@ section#introduction p{
 
     .intro-button {
         width: 300px;
-        text-align: center;
         transition: width 0.5s ease;
     }
 }
