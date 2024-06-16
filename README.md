@@ -18,7 +18,7 @@ This repository houses the codebase for my personal portfolio website, showcasin
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, (React.JS in the future)
-- **Backend:** N/A
-- **Deployment:** N/A
+- **Frontend:** HTML, CSS
+- **Backend:** JavaScript
+- **Deployment:** Vercel (In the future)
 - **Version Control:** Git

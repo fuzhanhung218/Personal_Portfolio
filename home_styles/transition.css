@@ -9,3 +9,73 @@
         transform: translateY(0);
     }
 }
+
+/* SIDEBAR TRANSITIONS */
+
+.sidebar,
+.vertical-line,
+.vertical-line-2,
+p#email {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none; 
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 992px) {
+    .sidebar,
+    .vertical-line,
+    .vertical-line-2,
+    p#email {
+        opacity: 0;
+    }
+
+    .sidebar.hidden,
+    .vertical-line.hidden,
+    .vertical-line-2.hidden,
+    p#email.hidden {
+        display: none;
+    }
+
+    .navbar .links,
+    .navbar .links .action_btn {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: block;
+    }
+
+    main {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 520px) {
+    section#introduction h1 {
+        font-size: 35px;
+        transition: font-size 0.3s ease;
+    }
+
+    .intro-button {
+        width: 300px;
+        transition: width 0.5s ease;
+    }
+}
+
+@media (max-width: 500px) {
+    .dropdown-menu{
+        left: 20px;
+        width: unset;
+    }
+}

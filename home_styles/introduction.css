@@ -67,17 +67,3 @@ section#introduction p{
     scale: 1.05;
     /* transform: translateX(-5px), translateY(-5px); */
 }
-
-/* RESPONSIVE DESIGN */
-
-@media (max-width: 520px) {
-    section#introduction h1 {
-        font-size: 35px;
-        transition: font-size 0.5s ease;
-    }
-
-    .intro-button {
-        width: 300px;
-        transition: width 0.5s ease;
-    }
-}
