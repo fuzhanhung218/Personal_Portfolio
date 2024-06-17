@@ -1,20 +1,23 @@
 /* NAV-BAR */
 
-const toggleBtn = document.querySelector('.toggle_btn')
-const toggleBtnIcon = document.querySelector('.toggle_btn i')
-const dropDownMenu = document.querySelector('.dropdown-menu')
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i');
+    const dropDownMenu = document.querySelector('.dropdown-menu');
 
-toggleBtn.onclick = function() {
-    dropDownMenu.classList.toggle('open')
+    toggleBtn.onclick = function() {
+        dropDownMenu.classList.toggle('open');
 
-    const isOpen = dropDownMenu.classList.contains('open')
+        const isOpen = dropDownMenu.classList.contains('open');
 
-    toggleBtnIcon.classList = isOpen 
-        ? 'fa-solid fa-xmark' 
-        : 'fa-solid fa-bars'
-}
+        toggleBtnIcon.className = isOpen 
+            ? 'fa-solid fa-xmark' 
+            : 'fa-solid fa-bars';
+    };
+});
 
-// Ensures the script runs after the HTML document has been completely loaded
+/* SIDE-BAR */
+
 document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.querySelector('.sidebar');
     const email = document.querySelector('p#email');
@@ -40,15 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial check on the first run
     if (window.innerWidth < 900) {
         hideElements();
-    } else {
-        showElements();
-    }
+    } 
 
     // Add an event listener for window resize to handle resizing
     window.addEventListener('resize', function() {
-        if (window.innerWidth < 900) {
-            hideElements();
-        } else {
+        if (window.innerWidth > 900) {
             showElements();
         }
     });

@@ -67,7 +67,7 @@ header {
 /* DROPDOWN MENU STYLES */
 
 .dropdown-menu {
-    display: none;
+    display: none; /* Hidden by default */
     position: absolute;
     top: 50px;
     right: 20px;
@@ -81,17 +81,20 @@ header {
     z-index: 1000;
 }
 
+/* Hover effect for dropdown items */
 .dropdown-menu li a:hover{
     color: var(--secondary-color);
     transform: scale(1.05);
 }
 
+/* Styles for open state of the dropdown */
 .dropdown-menu.open {
     height: 180px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+/* Styles for dropdown list items */
 .dropdown-menu li {
     padding: 10px;
     display: flex;
@@ -99,12 +102,14 @@ header {
     justify-content: center;
 }
 
+/* Styles for action button (Resume button) within dropdown */
 .dropdown-menu .action_btn {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+/* Hover effect for action button */
 .dropdown-menu .action_btn:hover {
     transform: scale(1.05);
 }
