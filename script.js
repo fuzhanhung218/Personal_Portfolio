@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 });
 
+document.getElementById("profilePicture").addEventListener("click", function() {
+    window.location.reload();
+});
+
+
 /* SIDE-BAR */
 
 document.addEventListener('DOMContentLoaded', function() {

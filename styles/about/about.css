@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 550px;
+    animation: var(--transition);
+}
+
+section#about {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
