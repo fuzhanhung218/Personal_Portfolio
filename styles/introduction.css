@@ -65,3 +65,13 @@ section#introduction p{
 .intro-button:hover {
     scale: 1.05;
 }
+
+section#about_me {
+    display: flex;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
