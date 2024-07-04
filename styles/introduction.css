@@ -1,5 +1,5 @@
 main {
-    padding: 80px 100px;
+    padding: 80px 80px;
     display: flex;
     max-width: 1200px;
     justify-content: center;
@@ -40,7 +40,7 @@ section#introduction {
 }
 
 section#introduction h1{
-    font-size: 40px;
+    font-size: 60px;
     max-width: 700px;
 }
 
@@ -66,6 +66,8 @@ section#introduction p{
     scale: 1.05;
 }
 
+/* ABOUT_ME STYLES AND LAYOUT */
+
 section#about_me {
     display: flex;
     position: relative;
@@ -74,4 +76,17 @@ section#about_me {
     gap: 20px;
     padding: 10px;
     flex-direction: column;
+    /* background-color: black; */
+}
+
+section#about_me h1 {
+    font-size: 40px;
+    max-width: 700px;
+    color: var(--h1-color);
+}
+
+section#about_me p {
+    max-width: 500px;
+    line-height: 20px;
+    color: var(--p-color);
 }
