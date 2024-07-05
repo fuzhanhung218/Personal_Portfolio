@@ -58,4 +58,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+/* MOBILISE SPAN */
+
+document.getElementById("mobiliseSpan").addEventListener("click", function() {
+    window.location.href = "https://wearemobilise.org.au/about-us/";
+  });
+
 

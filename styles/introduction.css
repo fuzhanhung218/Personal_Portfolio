@@ -76,7 +76,6 @@ section#about_me {
     gap: 20px;
     padding: 10px;
     flex-direction: column;
-    /* background-color: black; */
 }
 
 section#about_me h1 {
@@ -89,4 +88,28 @@ section#about_me p {
     max-width: 500px;
     line-height: 20px;
     color: var(--p-color);
+}
+
+#mobiliseSpan {
+    color: var(--secondary-color);
+    cursor: pointer;
+    position: relative; /* Ensure the span is positioned relative for the ::after element */
+    display: inline-block; 
+}
+
+#mobiliseSpan::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: var(--secondary-color);
+    transform: scaleX(0); /* Start with scale 0 */
+    transform-origin: left; /* Animate from the left to right */
+    transition: transform 0.3s ease-out; 
+}
+
+#mobiliseSpan:hover::after {
+    transform: scaleX(1); 
 }
