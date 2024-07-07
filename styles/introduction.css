@@ -66,6 +66,27 @@ section#introduction p{
     scale: 1.05;
 }
 
+.tech-stack-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    margin-top: -10px;
+    max-height: 300px;
+    max-width: 450px;
+    grid-row-gap: 3px;
+    .box {
+        color:var(--p-color);
+        display:flex;
+        align-items:center;
+        justify-content:start;
+    }
+}
+
+#box-span {
+    color: var(--secondary-color);
+    margin-right: 5px;
+}
+
 /* ABOUT_ME STYLES AND LAYOUT */
 
 section#about_me {
@@ -113,3 +134,4 @@ section#about_me p {
 #mobiliseSpan:hover::after {
     transform: scaleX(1); 
 }
+
