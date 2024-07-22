@@ -87,9 +87,10 @@ section#introduction p{
     margin-right: 5px;
 }
 
-/* ABOUT_ME STYLES AND LAYOUT */
+/* ABOUT_ME/MY_EXPERIENCES STYLES AND LAYOUT */
 
-section#about_me {
+section#about_me,
+section#experiences {
     display: flex;
     position: relative;
     margin-top: 200px;
@@ -99,7 +100,8 @@ section#about_me {
     flex-direction: column;
 }
 
-section#about_me h1 {
+section#about_me h1,
+section#experiences h1 {
     font-size: 40px;
     max-width: 700px;
     color: var(--h1-color);

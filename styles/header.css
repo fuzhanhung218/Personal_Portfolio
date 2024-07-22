@@ -38,6 +38,9 @@ header {
 }
 
 .profile_picture {
+    position: absolute;
+    top: 15px;
+    left: 15px;
     width: 45px;
     border-radius: 50%;
     cursor: pointer;
